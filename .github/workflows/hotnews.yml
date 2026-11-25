@@ -14,7 +14,7 @@ on:
     #
     # 💡 设计初衷 / Why this design:
     #    如果 7 天都忘了签到，或许这些资讯对你来说并非刚需
-    #    适时的暂停，能帮你从信息流中抽离，给大脑留出喘息的空间
+    #    适时的暂停，能让你从信息流中抽离，给大脑留出喘息的空间
     #    If you forget for 7 days, maybe you don't really need it
     #    A timely pause helps you detach from the stream and gives your mind space
     #
@@ -35,7 +35,7 @@ on:
     #   "15 * * * *"     → 每小时第15分钟 / minute 15 every hour
     #   "30 0-14 * * *"  → 北京时间 8:00-22:00 每小时第30分钟 / Beijing 8am-10pm
     #
-    - cron: "33 3 * * *"
+    - cron: "38 7 * * *"
 
   workflow_dispatch:
 
