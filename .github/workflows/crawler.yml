@@ -35,7 +35,7 @@ on:
     #   "15 * * * *"     → 每小时第15分钟 / minute 15 every hour
     #   "30 0-14 * * *"  → 北京时间 8:00-22:00 每小时第30分钟 / Beijing 8am-10pm
     #
-    - cron: "23 1 * * *"
+    - cron: "41 2 * * *"
 
   workflow_dispatch:
 
@@ -107,7 +107,7 @@ jobs:
       #   run: |
       #     echo "🎲 Traffic Control: Generating random delay..."
       #     DELAY=$(( ( RANDOM % 300 )  + 1 ))
-      #     echo "⏸️  Sleeping for ${DELAY} seconds to spread the load..."
+      #     echo "⏸️  Sleeping for ${DELAY}s seconds to spread the load..."
       #     sleep ${DELAY}s
       #     echo "▶️  Delay finished. Starting crawler..."
 
